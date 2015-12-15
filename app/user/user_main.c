@@ -36,7 +36,7 @@ void user_init(void)
 {
 	/* add by baojun for error output 2015-12-11 18:43:06*/
     uart_init(BIT_RATE_115200, BIT_RATE_115200);
-
+	os_printf("\n/*-------------------------*/\n");
     os_printf("SDK version:%s\n", system_get_sdk_version());
 
 #if ESP_PLATFORM
