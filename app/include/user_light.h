@@ -12,7 +12,7 @@
 /* You can change to other sector if you use other size spi flash. */
 /* Refer to the documentation about OTA support and flash mapping*/
 /*#define PRIV_PARAM_START_SEC		0x3C*/
-/*add by baojun for 1MB spi flash.*/
+/*changed by baojun for 1MB spi flash.*/
 #define PRIV_PARAM_START_SEC		0x7C
 #define PRIV_PARAM_SAVE     0
 

@@ -3,7 +3,9 @@
 
 /* NOTICE---this is for 512KB spi flash.
  * you can change to other sector if you use other size spi flash. */
-#define ESP_PARAM_START_SEC		0x3D
+ /*changed by baojun for 1MB spi flash. accord to :*/
+ /*http://bbs.espressif.com/viewtopic.php?f=65&t=1421&p=4738&hilit=please+check+device+is+activated.#p4738*/
+#define ESP_PARAM_START_SEC		0x7D
 
 #define packet_size   (2 * 1024)
 
